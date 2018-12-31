@@ -8,11 +8,11 @@
 # General App Info
 #
 app:
-  name: Park Pursuit # REQUIRED - Enter your app name
-  ios_id: 1335800270 # REQUIRED - 10 Digit Numeric App ID (lookup in iTunes Connect)
-  android_id: com.walkingriver.parkpursuit # Optional - Enter Android app id like: com.example.app
+  name: ForeWord # REQUIRED - Enter your app name
+  ios_id: 1443681527 # REQUIRED - 10 Digit Numeric App ID (lookup in iTunes Connect)
+  android_id: com.walkingriver.foreword # Optional - Enter Android app id like: com.example.app
 
-  icon: images/icon-1024.png # Leave blank to auto-magically populate
+  icon: images/icon-512.png # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-icon-512.png
   # 512px or greater, square
@@ -23,7 +23,7 @@ app:
   # 16px or greater, square
 
   # Leave blank to auto-magically populate
-  screenshot: images/app-screen-640x1136.png
+  #screenshot: images/app-screen-640x1136.png
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-screen-640x1136.png
   # 640x1136px
@@ -35,7 +35,7 @@ app:
 
   #app_twitter: # uncomment if the app has a twitter account "@my-awesome-app"
   creator_twitter: walkingriver # uncomment if creator has a twitter account "@awesome-dev"
-  social_image: /images/icon-1024.png # uncomment and add an image - defaults to icon
+  social_image: /images/icon-512.png # uncomment and add an image - defaults to icon
   # This will show up when your url is shared on sites like facebook and twitter
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-social_image.png
@@ -43,8 +43,8 @@ app:
 #
 # Marketing
 #
-marketing_header: A theme-park based mobile visual scavenger hunt -- now with Universal Studios Florida! # Optional
-marketing_desc: Park Pursuit is a visual scavenger hunt. The game is designed to allow scavenger hunts to be created anywhere in the world. However, living in Central Florida, the Disney Theme Parks seemed to be the natural place to start. As a bonus, we recently added 20 clues to seek from the Brigham Young University Campus in Provo, Utah. <p>To start a hunt, select an available park, and then you will be presented with a series of images. Each image is a clue to a landmark somewhere within that park.</p><p>If you need a hint, tap the "Hint" link (or the ? icon), and the app will tell you the rough compass direction you should seek, along with a snarky comment about your distance from it.</p><p>When you think you have found the landmark, tap the "Found It" link (or the eye icon). The app will compare your current location to the location embedded in the clue itself. You must be within 25 meters of the clue's location to consider it "found." Once found, that image will be marked as found and updated in the list of clues.</p><p>There is no limit to the number of clues or parks you can seek simultaneously. Your progress is saved automatically.</p><p>We intend to add more parks (and not just Disney Parks) to the mix, along with the ability for players to submit their own parks and clues. Watch for application updates.
+marketing_header: A Challenging Word Square Game - Now more than 9000 puzzles! # Optional
+marketing_desc: <p>Word Squares are a special type of word puzzle, consisting of words that can be read both horizontally and vertically. A true word square is made up of exactly four words, such as in this example...</p><table><tr><td>s</td><td>w</td><td>i</td><td>m</td></tr><tr><td>w</td><td>a</td><td>d</td><td>e</td></tr><tr><td>i</td><td>d</td><td>e</td><td>s</td></tr><tr><td>m</td><td>e</td><td>s</td><td>a</td></tr></table><p>There are literally hundreds of valid combinations of words, which could keep you occupied for months. But what fun is that? While not a true word square, we can also construct valid puzzles of eight words, as in this example...</p><table><tr><td>m</td><td>i</td><td>n</td><td>t</td></tr><tr><td>a</td><td>r</td><td>i</td><td>a</td></tr><tr><td>s</td><td>o</td><td>c</td><td>k</td></tr><tr><td>k</td><td>n</td><td>e</td><td>e</td></tr></table><p>Foreword offers you 3x3 and 4x4 word puzzles in more than 9000 combinations. Play 2-3 times per day to challenge your wits and exercise your brain, for potentially years of gameplay.</p><p>And coming soon, we'll add 5x5 grids, for hundreds of more puzzles.</p>
 
 #
 # Social Links
@@ -53,7 +53,7 @@ marketing_desc: Park Pursuit is a visual scavenger hunt. The game is designed to
 #
 social-links:
   github:
-  facebook: ParkPursuit
+  facebook: 
   twitter: walkingriver
   pinterest:
   instagram: walkingriver
@@ -83,7 +83,6 @@ device: iphone-se-silver-vertical # REQUIRED
 #
 background_color: "#989898" # Optional
 # background_image: /images/backgrounds/58-usersthink-stock-image-web.jpg # Optional - Use Relative path e.g. images/backgrounds/image.jpg
-background_image: /images/backgrounds/pp-collage.jpg
 text_color: white # Optional
 link_color: # Optional
 social_link_color: white # Optional
@@ -95,8 +94,8 @@ download_button_text_color: white; # Optional
 #
 # If you want specific meta info for your <head></head> tags
 #
-title: Park Pursuit # Optional - Enter your site title
-description: A theme-park based mobile visual scavenger hunt -- now with Universal Studios Florida! # Optional - Enter your site description
+title: ForeWord # Optional - Enter your site title
+description:  # Optional - Enter your site description
 
 #
 # Google Analytics
