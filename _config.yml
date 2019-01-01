@@ -44,7 +44,7 @@ app:
 # Marketing
 #
 marketing_header: A Challenging Word Square Game - Now more than 9000 puzzles! # Optional
-marketing_desc: <p>Word Squares are a special type of word puzzle, consisting of words that can be read both horizontally and vertically. A true word square is made up of exactly four words, such as in this example...</p><table><tr><td>s</td><td>w</td><td>i</td><td>m</td></tr><tr><td>w</td><td>a</td><td>d</td><td>e</td></tr><tr><td>i</td><td>d</td><td>e</td><td>s</td></tr><tr><td>m</td><td>e</td><td>s</td><td>a</td></tr></table><p>There are literally hundreds of valid combinations of words, which could keep you occupied for months. But what fun is that? While not a true word square, we can also construct valid puzzles of eight words, as in this example...</p><table><tr><td>m</td><td>i</td><td>n</td><td>t</td></tr><tr><td>a</td><td>r</td><td>i</td><td>a</td></tr><tr><td>s</td><td>o</td><td>c</td><td>k</td></tr><tr><td>k</td><td>n</td><td>e</td><td>e</td></tr></table><p>Foreword offers you 3x3 and 4x4 word puzzles in more than 9000 combinations. Play 2-3 times per day to challenge your wits and exercise your brain, for potentially years of gameplay.</p><p>And coming soon, we'll add 5x5 grids, for hundreds of more puzzles.</p>
+marketing_desc: <p>Word Squares are a special type of word puzzle, consisting of words that can be read both horizontally and vertically. A true word square is made up of exactly four words, such as in this example...</p><table class="square"><tr><td>s</td><td>w</td><td>i</td><td>m</td></tr><tr><td>w</td><td>a</td><td>d</td><td>e</td></tr><tr><td>i</td><td>d</td><td>e</td><td>s</td></tr><tr><td>m</td><td>e</td><td>s</td><td>a</td></tr></table><p>There are literally hundreds of valid combinations of words, which could keep you occupied for months. But what fun is that? While not a true word square, we can also construct valid puzzles of eight words, as in this example...</p><table class="square"><tr><td>m</td><td>i</td><td>n</td><td>t</td></tr><tr><td>a</td><td>r</td><td>i</td><td>a</td></tr><tr><td>s</td><td>o</td><td>c</td><td>k</td></tr><tr><td>k</td><td>n</td><td>e</td><td>e</td></tr></table><p>Foreword offers you 3x3 and 4x4 word puzzles in more than 9000 combinations. Play 2-3 times per day to challenge your wits and exercise your brain, for potentially years of gameplay.</p><p>And coming soon, we'll add 5x5 grids, for hundreds of more puzzles.</p>
 
 #
 # Social Links
@@ -82,7 +82,7 @@ device: iphone-se-silver-vertical # REQUIRED
 # Theme Settings
 #
 background_color: "#989898" # Optional
-# background_image: /images/backgrounds/58-usersthink-stock-image-web.jpg # Optional - Use Relative path e.g. images/backgrounds/image.jpg
+background_image: /images/backgrounds/green-bg.jpg # Optional - Use Relative path e.g. images/backgrounds/image.jpg
 text_color: white # Optional
 link_color: # Optional
 social_link_color: white # Optional
