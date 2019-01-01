@@ -2,8 +2,7 @@
 # Awesome App Landing Page Config
 #
 
-site.url: https://walkingriver.com
-site.baseurl: /foreword
+site.url: https://walkingriver.com/foreword
 
 # Be sure all REQUIRED fields are filled out!
 
