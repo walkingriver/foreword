@@ -18,13 +18,16 @@
 <meta content="{{ site.marketing_header }}" property="og:description">
 {% endif %}
 
-<meta name="twitter:url" content="{{ site.url }}">
-<meta content="{{ site.url }}" property="og:url">
+<!-- <meta name="twitter:url" content="{{ site.url }}"> -->
+<!-- <meta content="{{ site.url }}" property="og:url"> -->
+<meta name="twitter:url" content="https://walkingriver.com/foreword">
+<meta content="https://walkingriver.com/foreword" property="og:url">
 
 <!-- set image -->
 
 {% if site.app.social_image %}
-<meta property="og:image" content="{{ site.app.social_image | prepend: site.url }}" />
+<!-- <meta property="og:image" content="{{ site.app.social_image | prepend: site.url }}" /> -->
 {% else %}
-<meta property="og:image" content="{{ site.app.icon | prepend: site.url }}" />
+<!-- <meta property="og:image" content="{{ site.app.icon | prepend: site.url }}" /> -->
 {% endif %}
+<meta property="og:image" content="https://walkingriver.com/foreword/images/icon-512.png" />
